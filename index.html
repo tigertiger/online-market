@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Online Market</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Friendly Houseplants</h1>
+    <p>Intro</p>
+    <form id="orderForm">
+      <h3>Place your Order</h3>
+      <div class="form-group">
+        <label for="customerName">Your Name</label>
+        <input id="customerName" class="form-control" type="text">
+        </input>
+      </div>
+      <div class="form-group">
+        <label for="customerAddress">Your Address</label>
+        <input id="customerAddress" class="form-control" type="text">
+        </input>
+      </div>
+      <div class="form-group">
+        <label for="customerItem">What Item Do you Want?</label>
+        <input id="customerItem" class="form-control" type="text">
+        </input>
+      </div>
+      <button type="submit" class="btn">Place My Order</button>
+    </form>
+    <div id="receipt">
+      Name: <span class="customerName"></span><br>
+      Address: <span class="customerAddress"></span><br>
+      Ordered Item/s: <span class="customerItem"></span>
+    </div>
+</div>
+</body>
+</html>

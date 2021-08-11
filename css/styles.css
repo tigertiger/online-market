@@ -1,0 +1,12 @@
+.body {
+  background-color:antiquewhite;
+  color:rgb(56, 32, 0);
+}
+.container {
+  width:65%;
+  margin:auto;
+}
+
+#receipt {
+  display:none;
+}
