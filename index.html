@@ -27,13 +27,38 @@
         <label for="customerItem">What Item Do you Want?</label>
         <input id="customerItem" class="form-control" type="text">
         </input>
+      <select name="quantity" id="quantity" class="quantity">
+        <option value="1">1</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+      </select>
+      <div class="radio" name="color" id="color">
+        <label>
+          <input type="radio" name="color" value="blue">
+          Blue
+        </label>
+      </div> 
+      <div class="radio" name="color" id="color2">
+        <label>
+          <input type="radio" name="color" value="green">
+          Green
+        </label>
+      </div>
+      <div class="radio" name="color" id="color3">
+        <label>
+          <input type="radio" name="color" value="red">
+          Red
+        </label>
       </div>
       <button type="submit" class="btn">Place My Order</button>
     </form>
     <div id="receipt">
       Name: <span class="customerName"></span><br>
       Address: <span class="customerAddress"></span><br>
-      Ordered Item/s: <span class="customerItem"></span>
+      Ordered Item/s: <span class="customerItem"></span><br>
+      Quantity: <span class="quantity"></span><br>
+      Color: <span class="color"></span>
+    
     </div>
 </div>
 </body>
